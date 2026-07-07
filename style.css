@@ -1,0 +1,64 @@
+body {
+  font-family: -apple-system, 'Segoe UI', sans-serif;
+  background: #0f1414;
+  color: #eef2ee;
+  max-width: 480px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+h1 {
+  font-size: 1.4rem;
+  border-bottom: 2px solid #761320;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+}
+
+video {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+  background: #000;
+}
+
+button {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin-top: 12px;
+  margin-right: 8px;
+}
+
+#startBtn {
+  background: #7a2833;
+  color: white;
+}
+
+#stopBtn {
+  background: #2a2a2a;
+  color: #eef2ee;
+}
+
+input[type="file"] {
+  display: block;
+  margin-top: 16px;
+  font-size: 0.85rem;
+  color: #aab5ae;
+}
+
+#result {
+  font-family: 'Consolas', monospace;
+  font-size: 0.95rem;
+  background: #201417;
+  border: 1px solid #3a2228;
+  border-radius: 8px;
+  padding: 14px;
+  margin-top: 16px;
+  min-height: 20px;
+  word-break: break-all;
+  color: #d98a94;
+}
