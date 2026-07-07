@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>QR Okuyucu</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <h1>QR Okuyucu</h1>
+
+  <video id="video"></video>
+  <canvas id="canvas" style="display: none;"></canvas>
+
+  <br>
+
+  <button id="startBtn">Kamerayı Başlat</button>
+  <button id="stopBtn">Durdur</button>
+
+  <br><br>
+
+  <input type="file" id="fileInput" accept="image/*">
+
+  <div id="result"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jsQR/1.4.0/jsQR.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
